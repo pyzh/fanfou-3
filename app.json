@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/login/login",
+        "pages/search/search",
+        "pages/notice/notice",
+        "pages/publish/publish",
+        "pages/messages/messages",
+        "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "selectedColor": "#1296db",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "iconPath": "images/home.png",
+                "selectedIconPath": "images/selected-home.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "selectedIconPath": "images/selected-search.png",
+                "iconPath": "images/search.png",
+                "text": "搜索"
+            },
+            {
+                "pagePath": "pages/notice/notice",
+                "selectedIconPath": "images/selected-notice.png",
+                "iconPath": "images/notice.png",
+                "text": "通知"
+            },
+            {
+                "pagePath": "pages/messages/messages",
+                "selectedIconPath": "images/selected-message.png",
+                "iconPath": "images/message.png",
+                "text": "私信"
+            },
+            {
+                "pagePath": "pages/messages/messages",
+                "selectedIconPath": "images/selected-user.png",
+                "iconPath": "images/user.png",
+                "text": "我"
+            }
+        ]
+    }
+}

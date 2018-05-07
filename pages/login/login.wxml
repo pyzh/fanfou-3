@@ -1,0 +1,14 @@
+<view class="login-wrap">
+    <!-- bindsubmit: 携带 form 中的数据触发 submit 事件
+    event.detail = {value : {'name': 'value'} , formId: ''} -->
+    <form bindsubmit="login">
+        <view class="form-control">
+            <input type="text" id="username" name="username" placeholder="请输入Email或手机号"></input>
+            <input type="password" id="password" name="password" placeholder="请输入密码"></input>
+        </view>
+         <!-- 当点击 <form/> 表单中 formType 为 submit 的 <button/> 组件时
+         会将表单组件中的 value 值进行提交
+         需要在表单组件中加上 name 来作为 key。 -->
+        <button form-type="submit">登陆</button>
+    </form>
+</view>
